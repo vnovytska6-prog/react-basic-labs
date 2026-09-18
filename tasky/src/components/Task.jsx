@@ -6,8 +6,17 @@ const Task = (props) => {
             <p className="title">{props.title}</p>
             <p>Due: {props.deadline}</p>
             <p> {props.children}</p>
-            <p className="description">{props.description}</p>
-            <p> {props.priorityLevel}</p>
+           <p className="description">{props.description}</p>
+           <p className="priorityLevel"
+            style={{  backgroundColor: props.priorityLevel === "High"
+            ? "red"
+            : props.priorityLevel === "Medium"
+            ? "#e8aa16"
+            : "green"
+  }}
+>
+  {props.priorityLevel}
+</p>
             <button onClick={props.markDone} className="doneButton"> Done </button>
             <button className='deleteButton' onClick={props.deleteTask}>Delete</button>
         </div>
