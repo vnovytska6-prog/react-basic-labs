@@ -47,3 +47,7 @@ div {
   font-size: 0.9em;
   padding: 10px;
 }
+
+.priorityLevel {
+  font-weight: bold;
+}
