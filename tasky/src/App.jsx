@@ -110,7 +110,7 @@ function App() {
      align="center"
      gutterBottom
      sx={{
-      backgroundColor: 'gray',
+      backgroundColor: '#ba68c8',
       textAlign: 'center',
       color: 'white',
       padding: '20px',
@@ -122,7 +122,7 @@ function App() {
   </Typography>
 </Container>
 
-<Container maxWidth="md" component="main">
+<Container maxWidth="lg" component="main">
     <Grid
       container
       spacing={5}
