@@ -1,6 +1,7 @@
 ## React-basic-labs - Tasky.app
 
 Tasky is a simple task management application built with React and Material UI.
+
 <img width="1150" height="761" alt="image" src="https://github.com/user-attachments/assets/89b5cc84-f168-40e5-b487-d0f3dcb84437" />
 
 
